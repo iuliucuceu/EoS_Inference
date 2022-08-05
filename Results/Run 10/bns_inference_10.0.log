@@ -1,0 +1,680 @@
+15:25 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+15:25 INFO    : Injected signal in H1:
+15:25 INFO    :   optimal SNR = 34.44
+15:25 INFO    :   matched filter SNR = 35.76+0.42j
+15:25 INFO    :   mass_1 = 1.5
+15:25 INFO    :   mass_2 = 1.3
+15:25 INFO    :   chi_1 = 0.02
+15:25 INFO    :   chi_2 = 0.02
+15:25 INFO    :   luminosity_distance = 50.0
+15:25 INFO    :   theta_jn = 0.4
+15:25 INFO    :   psi = 2.659
+15:25 INFO    :   phase = 1.3
+15:25 INFO    :   geocent_time = 1126259642.413
+15:25 INFO    :   ra = 1.375
+15:25 INFO    :   dec = -1.2108
+15:25 INFO    :   lambda_1 = 342.4622864681741
+15:25 INFO    :   lambda_2 = 779.6186030639271
+15:25 INFO    : Injected signal in L1:
+15:25 INFO    :   optimal SNR = 27.88
+15:25 INFO    :   matched filter SNR = 28.39+1.42j
+15:25 INFO    :   mass_1 = 1.5
+15:25 INFO    :   mass_2 = 1.3
+15:25 INFO    :   chi_1 = 0.02
+15:25 INFO    :   chi_2 = 0.02
+15:25 INFO    :   luminosity_distance = 50.0
+15:25 INFO    :   theta_jn = 0.4
+15:25 INFO    :   psi = 2.659
+15:25 INFO    :   phase = 1.3
+15:25 INFO    :   geocent_time = 1126259642.413
+15:25 INFO    :   ra = 1.375
+15:25 INFO    :   dec = -1.2108
+15:25 INFO    :   lambda_1 = 342.4622864681741
+15:25 INFO    :   lambda_2 = 779.6186030639271
+15:25 INFO    : Injected signal in V1:
+15:25 INFO    :   optimal SNR = 29.56
+15:25 INFO    :   matched filter SNR = 29.93+0.53j
+15:25 INFO    :   mass_1 = 1.5
+15:25 INFO    :   mass_2 = 1.3
+15:25 INFO    :   chi_1 = 0.02
+15:25 INFO    :   chi_2 = 0.02
+15:25 INFO    :   luminosity_distance = 50.0
+15:25 INFO    :   theta_jn = 0.4
+15:25 INFO    :   psi = 2.659
+15:25 INFO    :   phase = 1.3
+15:25 INFO    :   geocent_time = 1126259642.413
+15:25 INFO    :   ra = 1.375
+15:25 INFO    :   dec = -1.2108
+15:25 INFO    :   lambda_1 = 342.4622864681741
+15:25 INFO    :   lambda_2 = 779.6186030639271
+15:31 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:33 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:34 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:34 INFO    : Using lal version 7.1.7
+15:34 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:34 INFO    : Using lalsimulation version 3.1.2
+15:34 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:34 INFO    : Search parameters:
+15:34 INFO    :   mass_ratio = Uniform(minimum=0.5, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+15:34 INFO    :   chirp_mass = Gaussian(mu=1.215, sigma=0.1, name='chirp_mass', latex_label='$\\mathcal{M}$', unit='$M_{\\odot}$', boundary=None)
+15:34 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:34 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:34 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:34 INFO    :   mass_1 = Constraint(minimum=1, maximum=2, name='mass_1', latex_label='$m_1$', unit=None)
+15:34 INFO    :   mass_2 = Constraint(minimum=1, maximum=2, name='mass_2', latex_label='$m_2$', unit=None)
+15:34 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:34 INFO    :   luminosity_distance = 50.0
+15:34 INFO    :   dec = -1.2108
+15:34 INFO    :   ra = 1.375
+15:34 INFO    :   theta_jn = 0.4
+15:34 INFO    :   psi = 2.659
+15:34 INFO    :   phase = 1.3
+15:34 INFO    :   chi_1 = 0.02
+15:34 INFO    :   chi_2 = 0.02
+15:34 INFO    :   geocent_time = 1126259642.413
+15:34 WARNING : {'symmetric_mass_ratio', 'chirp_mass', 'mass_2', 'mass_1'} already in prior. This may lead to unexpected behaviour.
+15:34 WARNING : mass_ratio is a redundant key in this BNSPriorDict.
+15:34 WARNING : {'symmetric_mass_ratio', 'mass_2', 'mass_ratio', 'mass_1'} already in prior. This may lead to unexpected behaviour.
+15:34 WARNING : chirp_mass is a redundant key in this BNSPriorDict.
+15:34 WARNING : {'chirp_mass', 'mass_2', 'mass_ratio', 'mass_1'} already in prior. This may lead to unexpected behaviour.
+15:34 WARNING : symmetric_mass_ratio is a redundant key in this BNSPriorDict.
+15:35 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:35 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:35 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:35 INFO    : Using lal version 7.1.7
+15:35 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:35 INFO    : Using lalsimulation version 3.1.2
+15:35 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:35 INFO    : Search parameters:
+15:35 INFO    :   chirp_mass = Gaussian(mu=1.215, sigma=0.1, name='chirp_mass', latex_label='$\\mathcal{M}$', unit='$M_{\\odot}$', boundary=None)
+15:35 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:35 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:35 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:35 INFO    :   mass_ratio = Uniform(minimum=0.5, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+15:35 INFO    :   mass_1 = Constraint(minimum=1, maximum=2, name='mass_1', latex_label='$m_1$', unit=None)
+15:35 INFO    :   mass_2 = Constraint(minimum=1, maximum=2, name='mass_2', latex_label='$m_2$', unit=None)
+15:35 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:35 INFO    :   luminosity_distance = 50.0
+15:35 INFO    :   dec = -1.2108
+15:35 INFO    :   ra = 1.375
+15:35 INFO    :   theta_jn = 0.4
+15:35 INFO    :   psi = 2.659
+15:35 INFO    :   phase = 1.3
+15:35 INFO    :   chi_1 = 0.02
+15:35 INFO    :   chi_2 = 0.02
+15:35 INFO    :   geocent_time = 1126259642.413
+15:35 WARNING : {'symmetric_mass_ratio', 'mass_2', 'mass_ratio', 'mass_1'} already in prior. This may lead to unexpected behaviour.
+15:35 WARNING : chirp_mass is a redundant key in this BNSPriorDict.
+15:35 WARNING : {'chirp_mass', 'mass_2', 'mass_ratio', 'mass_1'} already in prior. This may lead to unexpected behaviour.
+15:35 WARNING : symmetric_mass_ratio is a redundant key in this BNSPriorDict.
+15:35 WARNING : {'symmetric_mass_ratio', 'chirp_mass', 'mass_2', 'mass_1'} already in prior. This may lead to unexpected behaviour.
+15:35 WARNING : mass_ratio is a redundant key in this BNSPriorDict.
+15:36 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:36 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:36 INFO    : Using lal version 7.1.7
+15:36 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:36 INFO    : Using lalsimulation version 3.1.2
+15:36 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:36 INFO    : Search parameters:
+15:36 INFO    :   chirp_mass = Gaussian(mu=1.215, sigma=0.1, name='chirp_mass', latex_label='$\\mathcal{M}$', unit='$M_{\\odot}$', boundary=None)
+15:36 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:36 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:36 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:36 INFO    :   mass_ratio = Uniform(minimum=0.5, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+15:36 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:36 INFO    :   luminosity_distance = 50.0
+15:36 INFO    :   dec = -1.2108
+15:36 INFO    :   ra = 1.375
+15:36 INFO    :   theta_jn = 0.4
+15:36 INFO    :   psi = 2.659
+15:36 INFO    :   phase = 1.3
+15:36 INFO    :   chi_1 = 0.02
+15:36 INFO    :   chi_2 = 0.02
+15:36 INFO    :   geocent_time = 1126259642.413
+15:36 WARNING : {'symmetric_mass_ratio', 'mass_ratio'} already in prior. This may lead to unexpected behaviour.
+15:36 WARNING : chirp_mass is a redundant key in this BNSPriorDict.
+15:36 WARNING : {'chirp_mass', 'mass_ratio'} already in prior. This may lead to unexpected behaviour.
+15:36 WARNING : symmetric_mass_ratio is a redundant key in this BNSPriorDict.
+15:36 WARNING : {'symmetric_mass_ratio', 'chirp_mass'} already in prior. This may lead to unexpected behaviour.
+15:36 WARNING : mass_ratio is a redundant key in this BNSPriorDict.
+15:42 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:42 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:42 INFO    : Using lal version 7.1.7
+15:42 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:42 INFO    : Using lalsimulation version 3.1.2
+15:42 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:42 INFO    : Search parameters:
+15:42 INFO    :   chirp_mass = Gaussian(mu=1.215, sigma=0.1, name='chirp_mass', latex_label='$\\mathcal{M}$', unit='$M_{\\odot}$', boundary=None)
+15:42 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:42 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:42 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:42 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:42 INFO    :   luminosity_distance = 50.0
+15:42 INFO    :   dec = -1.2108
+15:42 INFO    :   ra = 1.375
+15:42 INFO    :   theta_jn = 0.4
+15:42 INFO    :   psi = 2.659
+15:42 INFO    :   phase = 1.3
+15:42 INFO    :   chi_1 = 0.02
+15:42 INFO    :   chi_2 = 0.02
+15:42 INFO    :   geocent_time = 1126259642.413
+15:46 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+15:46 INFO    : Injected signal in H1:
+15:46 INFO    :   optimal SNR = 34.44
+15:46 INFO    :   matched filter SNR = 34.41-0.87j
+15:46 INFO    :   mass_1 = 1.5
+15:46 INFO    :   mass_2 = 1.3
+15:46 INFO    :   chi_1 = 0.02
+15:46 INFO    :   chi_2 = 0.02
+15:46 INFO    :   luminosity_distance = 50.0
+15:46 INFO    :   theta_jn = 0.4
+15:46 INFO    :   psi = 2.659
+15:46 INFO    :   phase = 1.3
+15:46 INFO    :   geocent_time = 1126259642.413
+15:46 INFO    :   ra = 1.375
+15:46 INFO    :   dec = -1.2108
+15:46 INFO    :   lambda_1 = 342.4622864681741
+15:46 INFO    :   lambda_2 = 779.6186030639271
+15:46 INFO    : Injected signal in L1:
+15:46 INFO    :   optimal SNR = 27.88
+15:46 INFO    :   matched filter SNR = 27.33+0.48j
+15:46 INFO    :   mass_1 = 1.5
+15:46 INFO    :   mass_2 = 1.3
+15:46 INFO    :   chi_1 = 0.02
+15:46 INFO    :   chi_2 = 0.02
+15:46 INFO    :   luminosity_distance = 50.0
+15:46 INFO    :   theta_jn = 0.4
+15:46 INFO    :   psi = 2.659
+15:46 INFO    :   phase = 1.3
+15:46 INFO    :   geocent_time = 1126259642.413
+15:46 INFO    :   ra = 1.375
+15:46 INFO    :   dec = -1.2108
+15:46 INFO    :   lambda_1 = 342.4622864681741
+15:46 INFO    :   lambda_2 = 779.6186030639271
+15:46 INFO    : Injected signal in V1:
+15:46 INFO    :   optimal SNR = 29.56
+15:46 INFO    :   matched filter SNR = 30.93+1.54j
+15:46 INFO    :   mass_1 = 1.5
+15:46 INFO    :   mass_2 = 1.3
+15:46 INFO    :   chi_1 = 0.02
+15:46 INFO    :   chi_2 = 0.02
+15:46 INFO    :   luminosity_distance = 50.0
+15:46 INFO    :   theta_jn = 0.4
+15:46 INFO    :   psi = 2.659
+15:46 INFO    :   phase = 1.3
+15:46 INFO    :   geocent_time = 1126259642.413
+15:46 INFO    :   ra = 1.375
+15:46 INFO    :   dec = -1.2108
+15:46 INFO    :   lambda_1 = 342.4622864681741
+15:46 INFO    :   lambda_2 = 779.6186030639271
+15:46 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:46 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:46 INFO    : Using lal version 7.1.7
+15:46 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:46 INFO    : Using lalsimulation version 3.1.2
+15:46 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:46 INFO    : Search parameters:
+15:46 INFO    :   chirp_mass = Uniform(minimum=0.8, maximum=2, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+15:46 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:46 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:46 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:46 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:46 INFO    :   luminosity_distance = 50.0
+15:46 INFO    :   dec = -1.2108
+15:46 INFO    :   ra = 1.375
+15:46 INFO    :   theta_jn = 0.4
+15:46 INFO    :   psi = 2.659
+15:46 INFO    :   phase = 1.3
+15:46 INFO    :   chi_1 = 0.02
+15:46 INFO    :   chi_2 = 0.02
+15:46 INFO    :   geocent_time = 1126259642.413
+15:47 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:47 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:47 INFO    : Using lal version 7.1.7
+15:47 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:47 INFO    : Using lalsimulation version 3.1.2
+15:47 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:47 INFO    : Search parameters:
+15:47 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:47 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:47 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:47 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:47 INFO    :   luminosity_distance = 50.0
+15:47 INFO    :   dec = -1.2108
+15:47 INFO    :   ra = 1.375
+15:47 INFO    :   theta_jn = 0.4
+15:47 INFO    :   psi = 2.659
+15:47 INFO    :   phase = 1.3
+15:47 INFO    :   chi_1 = 0.02
+15:47 INFO    :   chi_2 = 0.02
+15:47 INFO    :   geocent_time = 1126259642.413
+15:48 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:48 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:48 INFO    : Using lal version 7.1.7
+15:48 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:48 INFO    : Using lalsimulation version 3.1.2
+15:48 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:48 INFO    : Search parameters:
+15:48 INFO    :   symmetric_mass_ratio = Uniform(minimum=0.1, maximum=0.4, name='symmetric_mass_ratio', latex_label='$\\eta$', unit=None, boundary=None)
+15:48 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:48 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:48 INFO    :   mass_1 = Constraint(minimum=0.5, maximum=5, name='mass_1', latex_label='$m_1$', unit=None)
+15:48 INFO    :   mass_2 = Constraint(minimum=0.5, maximum=5, name='mass_2', latex_label='$m_2$', unit=None)
+15:48 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:48 INFO    :   luminosity_distance = 50.0
+15:48 INFO    :   dec = -1.2108
+15:48 INFO    :   ra = 1.375
+15:48 INFO    :   theta_jn = 0.4
+15:48 INFO    :   psi = 2.659
+15:48 INFO    :   phase = 1.3
+15:48 INFO    :   chi_1 = 0.02
+15:48 INFO    :   chi_2 = 0.02
+15:48 INFO    :   geocent_time = 1126259642.413
+15:49 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:49 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Using lal version 7.1.7
+15:49 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:49 INFO    : Using lalsimulation version 3.1.2
+15:49 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:49 INFO    : Search parameters:
+15:49 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:49 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:49 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:49 INFO    :   luminosity_distance = 50.0
+15:49 INFO    :   dec = -1.2108
+15:49 INFO    :   ra = 1.375
+15:49 INFO    :   theta_jn = 0.4
+15:49 INFO    :   psi = 2.659
+15:49 INFO    :   phase = 1.3
+15:49 INFO    :   chi_1 = 0.02
+15:49 INFO    :   chi_2 = 0.02
+15:49 INFO    :   geocent_time = 1126259642.413
+15:49 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+15:49 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+15:49 INFO    : Using lal version 7.1.7
+15:49 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:49 INFO    : Using lalsimulation version 3.1.2
+15:49 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+15:49 INFO    : Search parameters:
+15:49 INFO    :   mass_ratio = Uniform(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+15:49 INFO    :   chirp_mass = Uniform(minimum=0.4, maximum=4.4, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+15:49 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+15:49 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+15:49 INFO    :   mass_1 = Constraint(minimum=0.5, maximum=5, name='mass_1', latex_label='$m_1$', unit=None)
+15:49 INFO    :   mass_2 = Constraint(minimum=0.5, maximum=5, name='mass_2', latex_label='$m_2$', unit=None)
+15:49 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+15:49 INFO    :   luminosity_distance = 50.0
+15:49 INFO    :   dec = -1.2108
+15:49 INFO    :   ra = 1.375
+15:49 INFO    :   theta_jn = 0.4
+15:49 INFO    :   psi = 2.659
+15:49 INFO    :   phase = 1.3
+15:49 INFO    :   chi_1 = 0.02
+15:49 INFO    :   chi_2 = 0.02
+15:49 INFO    :   geocent_time = 1126259642.413
+15:50 INFO    : Single likelihood evaluation took 4.897e-02 s
+15:50 INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 1800, 'nlive': 150, 'first_update': None, 'walks': 25, 'npdim': None, 'rstate': None, 'queue_size': 8, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 90, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7fd90e89e700>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5, 'print_method': 'tqdm'}
+15:50 INFO    : Checkpoint every check_point_delta_t = 600s
+15:50 INFO    : Using dynesty version 1.0.1
+15:50 INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+15:50 INFO    : Setting up multiproccesing pool with 8 processes.
+15:50 INFO    : Resume file outdir/bns_inference_10.0_resume.pickle does not exist.
+15:50 INFO    : Generating initial points from the prior
+16:00 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:10 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:20 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:31 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:41 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:43 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:43 INFO    : Starting to close worker pool.
+16:43 INFO    : Finished closing worker pool.
+16:43 INFO    : Sampling time: 0:53:12.577014
+16:43 INFO    : Generating sky frame parameters.
+16:43 INFO    : Computing SNRs for every sample.
+16:46 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+16:46 INFO    : Injected signal in H1:
+16:46 INFO    :   optimal SNR = 34.44
+16:46 INFO    :   matched filter SNR = 35.76+0.42j
+16:46 INFO    :   mass_1 = 1.5
+16:46 INFO    :   mass_2 = 1.3
+16:46 INFO    :   chi_1 = 0.02
+16:46 INFO    :   chi_2 = 0.02
+16:46 INFO    :   luminosity_distance = 50.0
+16:46 INFO    :   theta_jn = 0.4
+16:46 INFO    :   psi = 2.659
+16:46 INFO    :   phase = 1.3
+16:46 INFO    :   geocent_time = 1126259642.413
+16:46 INFO    :   ra = 1.375
+16:46 INFO    :   dec = -1.2108
+16:46 INFO    :   lambda_1 = 342.4622864681741
+16:46 INFO    :   lambda_2 = 779.6186030639271
+16:46 INFO    : Injected signal in L1:
+16:46 INFO    :   optimal SNR = 27.88
+16:46 INFO    :   matched filter SNR = 28.39+1.42j
+16:46 INFO    :   mass_1 = 1.5
+16:46 INFO    :   mass_2 = 1.3
+16:46 INFO    :   chi_1 = 0.02
+16:46 INFO    :   chi_2 = 0.02
+16:46 INFO    :   luminosity_distance = 50.0
+16:46 INFO    :   theta_jn = 0.4
+16:46 INFO    :   psi = 2.659
+16:46 INFO    :   phase = 1.3
+16:46 INFO    :   geocent_time = 1126259642.413
+16:46 INFO    :   ra = 1.375
+16:46 INFO    :   dec = -1.2108
+16:46 INFO    :   lambda_1 = 342.4622864681741
+16:46 INFO    :   lambda_2 = 779.6186030639271
+16:46 INFO    : Injected signal in V1:
+16:46 INFO    :   optimal SNR = 29.56
+16:46 INFO    :   matched filter SNR = 29.93+0.53j
+16:46 INFO    :   mass_1 = 1.5
+16:46 INFO    :   mass_2 = 1.3
+16:46 INFO    :   chi_1 = 0.02
+16:46 INFO    :   chi_2 = 0.02
+16:46 INFO    :   luminosity_distance = 50.0
+16:46 INFO    :   theta_jn = 0.4
+16:46 INFO    :   psi = 2.659
+16:46 INFO    :   phase = 1.3
+16:46 INFO    :   geocent_time = 1126259642.413
+16:46 INFO    :   ra = 1.375
+16:46 INFO    :   dec = -1.2108
+16:46 INFO    :   lambda_1 = 342.4622864681741
+16:46 INFO    :   lambda_2 = 779.6186030639271
+16:46 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+16:47 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:47 INFO    : Using lal version 7.1.7
+16:47 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+16:47 INFO    : Using lalsimulation version 3.1.2
+16:47 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+16:47 INFO    : Search parameters:
+16:47 INFO    :   mass_ratio = Uniform(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+16:47 INFO    :   chirp_mass = Uniform(minimum=0.4, maximum=4.4, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+16:47 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+16:47 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+16:47 INFO    :   mass_1 = Constraint(minimum=0.5, maximum=5, name='mass_1', latex_label='$m_1$', unit=None)
+16:47 INFO    :   mass_2 = Constraint(minimum=0.5, maximum=5, name='mass_2', latex_label='$m_2$', unit=None)
+16:47 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+16:47 INFO    :   luminosity_distance = 50.0
+16:47 INFO    :   dec = -1.2108
+16:47 INFO    :   ra = 1.375
+16:47 INFO    :   theta_jn = 0.4
+16:47 INFO    :   psi = 2.659
+16:47 INFO    :   phase = 1.3
+16:47 INFO    :   chi_1 = 0.02
+16:47 INFO    :   chi_2 = 0.02
+16:47 INFO    :   geocent_time = 1126259642.413
+16:47 INFO    : Single likelihood evaluation took 5.119e-02 s
+16:47 INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 1800, 'nlive': 150, 'first_update': None, 'walks': 25, 'npdim': None, 'rstate': None, 'queue_size': 8, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 90, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f80c83029d0>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5, 'print_method': 'tqdm'}
+16:47 INFO    : Checkpoint every check_point_delta_t = 600s
+16:47 INFO    : Using dynesty version 1.0.1
+16:47 INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+16:47 INFO    : Setting up multiproccesing pool with 8 processes.
+16:47 INFO    : Reading resume file outdir/bns_inference_10.0_resume.pickle
+16:47 INFO    : Resume file successfully loaded.
+16:47 INFO    : Written checkpoint file outdir/bns_inference_10.0_resume.pickle
+16:47 INFO    : Starting to close worker pool.
+16:47 INFO    : Finished closing worker pool.
+16:47 INFO    : Sampling time: 0:53:12.625725
+16:47 INFO    : Generating sky frame parameters.
+16:47 INFO    : Computing SNRs for every sample.
+16:50 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+16:50 INFO    : Injected signal in H1:
+16:50 INFO    :   optimal SNR = 34.44
+16:50 INFO    :   matched filter SNR = 35.76+0.42j
+16:50 INFO    :   mass_1 = 1.5
+16:50 INFO    :   mass_2 = 1.3
+16:50 INFO    :   chi_1 = 0.02
+16:50 INFO    :   chi_2 = 0.02
+16:50 INFO    :   luminosity_distance = 50.0
+16:50 INFO    :   theta_jn = 0.4
+16:50 INFO    :   psi = 2.659
+16:50 INFO    :   phase = 1.3
+16:50 INFO    :   geocent_time = 1126259642.413
+16:50 INFO    :   ra = 1.375
+16:50 INFO    :   dec = -1.2108
+16:50 INFO    :   lambda_1 = 342.4622864681741
+16:50 INFO    :   lambda_2 = 779.6186030639271
+16:50 INFO    : Injected signal in L1:
+16:50 INFO    :   optimal SNR = 27.88
+16:50 INFO    :   matched filter SNR = 28.39+1.42j
+16:50 INFO    :   mass_1 = 1.5
+16:50 INFO    :   mass_2 = 1.3
+16:50 INFO    :   chi_1 = 0.02
+16:50 INFO    :   chi_2 = 0.02
+16:50 INFO    :   luminosity_distance = 50.0
+16:50 INFO    :   theta_jn = 0.4
+16:50 INFO    :   psi = 2.659
+16:50 INFO    :   phase = 1.3
+16:50 INFO    :   geocent_time = 1126259642.413
+16:50 INFO    :   ra = 1.375
+16:50 INFO    :   dec = -1.2108
+16:50 INFO    :   lambda_1 = 342.4622864681741
+16:50 INFO    :   lambda_2 = 779.6186030639271
+16:50 INFO    : Injected signal in V1:
+16:50 INFO    :   optimal SNR = 29.56
+16:50 INFO    :   matched filter SNR = 29.93+0.53j
+16:50 INFO    :   mass_1 = 1.5
+16:50 INFO    :   mass_2 = 1.3
+16:50 INFO    :   chi_1 = 0.02
+16:50 INFO    :   chi_2 = 0.02
+16:50 INFO    :   luminosity_distance = 50.0
+16:50 INFO    :   theta_jn = 0.4
+16:50 INFO    :   psi = 2.659
+16:50 INFO    :   phase = 1.3
+16:50 INFO    :   geocent_time = 1126259642.413
+16:50 INFO    :   ra = 1.375
+16:50 INFO    :   dec = -1.2108
+16:50 INFO    :   lambda_1 = 342.4622864681741
+16:50 INFO    :   lambda_2 = 779.6186030639271
+16:50 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+16:51 INFO    : Running for label 'bns_inference_10.0', output will be saved to 'outdir'
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+16:51 INFO    : Using lal version 7.1.7
+16:51 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+16:51 INFO    : Using lalsimulation version 3.1.2
+16:51 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+16:51 INFO    : Search parameters:
+16:51 INFO    :   mass_ratio = Uniform(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+16:51 INFO    :   chirp_mass = Uniform(minimum=0.4, maximum=4.4, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+16:51 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+16:51 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+16:51 INFO    :   mass_1 = Constraint(minimum=0.5, maximum=5, name='mass_1', latex_label='$m_1$', unit=None)
+16:51 INFO    :   mass_2 = Constraint(minimum=0.5, maximum=5, name='mass_2', latex_label='$m_2$', unit=None)
+16:51 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+16:51 INFO    :   luminosity_distance = 50.0
+16:51 INFO    :   dec = -1.2108
+16:51 INFO    :   ra = 1.375
+16:51 INFO    :   theta_jn = 0.4
+16:51 INFO    :   psi = 2.659
+16:51 INFO    :   phase = 1.3
+16:51 INFO    :   chi_1 = 0.02
+16:51 INFO    :   chi_2 = 0.02
+16:51 INFO    :   geocent_time = 1126259642.413
+16:51 INFO    : Single likelihood evaluation took 6.803e-02 s
+16:51 INFO    : Checkpoint every check_point_delta_t = 600s
+16:51 WARNING : Using cached result
+16:51 INFO    : Generating sky frame parameters.
+16:51 INFO    : Computing SNRs for every sample.
+16:51 INFO    : Using a pool with size 4 for nsamples=3545
+16:52 INFO    : Summary of results:
+nsamples: 3545
+ln_noise_evidence: -95859.848
+ln_evidence: -96058.780 +/-  0.504
+ln_bayes_factor: -198.932 +/-  0.504
+
