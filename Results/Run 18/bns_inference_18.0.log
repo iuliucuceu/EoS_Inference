@@ -1,0 +1,99 @@
+13:01 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_neutron_star
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_neutron_star_parameters
+13:01 INFO    : Injected signal in H1:
+13:01 INFO    :   optimal SNR = 8.61
+13:01 INFO    :   matched filter SNR = 9.94+0.42j
+13:01 INFO    :   mass_1 = 1.5
+13:01 INFO    :   mass_2 = 1.3
+13:01 INFO    :   chi_1 = 0.02
+13:01 INFO    :   chi_2 = 0.02
+13:01 INFO    :   luminosity_distance = 200.0
+13:01 INFO    :   theta_jn = 0.4
+13:01 INFO    :   psi = 2.659
+13:01 INFO    :   phase = 1.3
+13:01 INFO    :   geocent_time = 1126259642.413
+13:01 INFO    :   ra = 1.375
+13:01 INFO    :   dec = -1.2108
+13:01 INFO    :   lambda_1 = 342.4622864681741
+13:01 INFO    :   lambda_2 = 779.6186030639271
+13:01 INFO    : Injected signal in L1:
+13:01 INFO    :   optimal SNR = 6.97
+13:01 INFO    :   matched filter SNR = 7.47+1.42j
+13:01 INFO    :   mass_1 = 1.5
+13:01 INFO    :   mass_2 = 1.3
+13:01 INFO    :   chi_1 = 0.02
+13:01 INFO    :   chi_2 = 0.02
+13:01 INFO    :   luminosity_distance = 200.0
+13:01 INFO    :   theta_jn = 0.4
+13:01 INFO    :   psi = 2.659
+13:01 INFO    :   phase = 1.3
+13:01 INFO    :   geocent_time = 1126259642.413
+13:01 INFO    :   ra = 1.375
+13:01 INFO    :   dec = -1.2108
+13:01 INFO    :   lambda_1 = 342.4622864681741
+13:01 INFO    :   lambda_2 = 779.6186030639271
+13:01 INFO    : Injected signal in V1:
+13:01 INFO    :   optimal SNR = 7.39
+13:01 INFO    :   matched filter SNR = 7.77+0.53j
+13:01 INFO    :   mass_1 = 1.5
+13:01 INFO    :   mass_2 = 1.3
+13:01 INFO    :   chi_1 = 0.02
+13:01 INFO    :   chi_2 = 0.02
+13:01 INFO    :   luminosity_distance = 200.0
+13:01 INFO    :   theta_jn = 0.4
+13:01 INFO    :   psi = 2.659
+13:01 INFO    :   phase = 1.3
+13:01 INFO    :   geocent_time = 1126259642.413
+13:01 INFO    :   ra = 1.375
+13:01 INFO    :   dec = -1.2108
+13:01 INFO    :   lambda_1 = 342.4622864681741
+13:01 INFO    :   lambda_2 = 779.6186030639271
+13:01 INFO    : No prior given, using default BNS priors in /home/iuliu/anaconda3/envs/work/lib/python3.9/site-packages/bilby/gw/prior_files/aligned_spins_bns_tides_on.prior.
+13:01 INFO    : Running for label 'bns_inference_18.0', output will be saved to 'outdir'
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Performing redundancy check using BBHPriorDict(self).test_redundancy
+13:01 INFO    : Using lal version 7.1.7
+13:01 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+13:01 INFO    : Using lalsimulation version 3.1.2
+13:01 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.5;Id: bd2ad8ca448e9761e3010e519a656789332ea28a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+13:01 INFO    : Search parameters:
+13:01 INFO    :   chirp_mass = Uniform(minimum=0.4, maximum=3.4, name='chirp_mass', latex_label='$\\mathcal{M}$', unit='$M_{\\odot}$', boundary=None)
+13:01 INFO    :   lambda_1 = Uniform(minimum=0, maximum=2000, name='lambda_1', latex_label='$\\Lambda_1$', unit=None, boundary=None)
+13:01 INFO    :   lambda_2 = Uniform(minimum=0, maximum=2000, name='lambda_2', latex_label='$\\Lambda_2$', unit=None, boundary=None)
+13:01 INFO    :   mass_ratio = Uniform(minimum=0.5, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+13:01 INFO    :   eos_check = EOSCheck(minimum=-inf, maximum=inf)
+13:01 INFO    :   luminosity_distance = 200.0
+13:01 INFO    :   dec = -1.2108
+13:01 INFO    :   ra = 1.375
+13:01 INFO    :   theta_jn = 0.4
+13:01 INFO    :   psi = 2.659
+13:01 INFO    :   phase = 1.3
+13:01 INFO    :   chi_1 = 0.02
+13:01 INFO    :   chi_2 = 0.02
+13:01 INFO    :   geocent_time = 1126259642.413
+13:01 INFO    : Single likelihood evaluation took 4.778e-02 s
+13:01 INFO    : Checkpoint every check_point_delta_t = 600s
+13:01 WARNING : Using cached result
+13:01 INFO    : Generating sky frame parameters.
+13:01 INFO    : Computing SNRs for every sample.
+13:01 INFO    : Using a pool with size 8 for nsamples=3282
+13:02 INFO    : Summary of results:
+nsamples: 3282
+ln_noise_evidence: -94476.784
+ln_evidence: -94385.826 +/-  0.479
+ln_bayes_factor: 90.958 +/-  0.479
+
